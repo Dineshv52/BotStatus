@@ -61,7 +61,7 @@ except Exception as e:
     exit(1)
 
 HEADER_MSG = getenv("HEADER_MSG", "**Telegram Bot Status :**")
-FOOTER_MSG = getenv("FOOTER_MSG", "#Happy Hacking")
+FOOTER_MSG = getenv("FOOTER_MSG", "#HappyHacking #Python #SecurityPanda @bugbountyhunt")
 TIME_ZONE = getenv("TIME_ZONE", "Asia/Kolkata")
 
 log.info("Connecting pyroBotClient")

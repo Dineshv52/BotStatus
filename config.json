@@ -3,12 +3,14 @@
     "bot1": {
       "base_url_of_bot": "https://t.me/AdvanceFilmFilterBot",
       "host": "HK",
-      "bot_uname": "@AdvanceFilmFilterBot"
+      "bot_uname": "@AdvanceFilmFilterBot",
+      "status_data": "",
     },
     "bot2": {
       "base_url_of_bot": "https://t.me/FilterNewProBot",
       "host": "Vps",
-      "bot_uname": "@FilterNewProBot"
+      "bot_uname": "@FilterNewProBot",
+      "status_data": "",
     }
   },
   "channels": {

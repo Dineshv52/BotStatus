@@ -1,0 +1,23 @@
+{
+  "bots": {
+    "bot1": {
+      "base_url_of_bot": "@AdvanceFilmFilterBot",
+      "host": "HK",
+      "bot_uname": "@AdvanceFilmFilterBot"
+    },
+    "bot2": {
+      "host": "Vps",
+      "bot_uname": "@FilterNewProBot"
+    }
+  },
+  "channels": {
+    "chat1": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat2": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    }
+  }
+}

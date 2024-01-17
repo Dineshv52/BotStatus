@@ -11,7 +11,7 @@
       "bot_uname": "@FilterNewProBot"
     },
     "bot3": {
-      "host": "Heroku",
+      "host": "VPS",
       "status_data": "",
       "bot_uname": "@hdmovies5Bot"
     },

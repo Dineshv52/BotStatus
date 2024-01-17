@@ -3,7 +3,7 @@
     "bot1": {
       "host": "Heroku",
       "status_data": "",
-      "bot_uname": "@AdvanceFilmFilterBot1"
+      "bot_uname": "@AdvanceFilmFilterBot"
     },
     "bot2": {
       "host": "Heroku",

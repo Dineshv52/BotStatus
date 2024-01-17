@@ -61,7 +61,7 @@ except Exception as e:
     exit(1)
 
 HEADER_MSG = getenv("HEADER_MSG", "**Telegram Bot Status :**")
-FOOTER_MSG = getenv("FOOTER_MSG", "_Join FZX Paradox at @FZXParadox_\n**Repo :** __https://github.com/SilentDemonSD/TgBotStatus__")
+FOOTER_MSG = getenv("FOOTER_MSG", "#Happy Hacking")
 TIME_ZONE = getenv("TIME_ZONE", "Asia/Kolkata")
 
 log.info("Connecting pyroBotClient")
@@ -157,10 +157,16 @@ async def check_bots():
         bot_stats.setdefault(bot, {})
         bot_stats[bot]['bot_uname'] = bdata['bot_uname']
         bot_stats[bot]['host'] = bdata['host']
+        bot_stats[bot]["status_data"] = bdata['status_data']
         pre_time = time()
         if bdata.get('base_url_of_bot'):
+            print(bdata['base_url_of_bot'])
+            print("ssss")
             resp = rget(f"{bdata['base_url_of_bot']}/status")
+            print(resp)
             if resp.status_code == 200:
+                print(bot_stats[bot]["bot_uname"])
+                # print(bot_stats[bot]["status_data"])
                 bot_stats[bot]["status_data"] = resp.json()
         try:
             sent_msg = await client.send_message(bdata['bot_uname'], "/start")

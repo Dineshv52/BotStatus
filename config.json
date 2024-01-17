@@ -1,42 +1,42 @@
 {
-    "bots": {
-      "bot1": {
-        "host": "Heroku",
-        "status_data": "",
-        "bot_uname": "@AdvanceFilmFilterBot1"
-      },
-      "bot2": {
-        "host": "Heroku",
-        "status_data": "",
-        "bot_uname": "@FilterNewProBot"
-      },
-      "bot3": {
-        "host": "Heroku",
-        "status_data": "",
-        "bot_uname": "@hdmovies5Bot"
-      },
-      "bot4": {
-        "host": "Heroku",
-        "status_data": "",
-        "bot_uname": "@FilterNewProBot"
-      }
+  "bots": {
+    "bot1": {
+      "host": "Heroku",
+      "status_data": "",
+      "bot_uname": "@AdvanceFilmFilterBot1"
     },
-    "channels": {
-      "chat1": {
-        "chat_id": "-1002010698302",
-        "message_id": "10"
-      },
-      "chat2": {
-        "chat_id": "-1002010698302",
-        "message_id": "10"
-      },
-      "chat3": {
-        "chat_id": "-1002010698302",
-        "message_id": "10"
-      },
-      "chat4": {
-        "chat_id": "-1002010698302",
-        "message_id": "10"
-      }
+    "bot2": {
+      "host": "Heroku",
+      "status_data": "",
+      "bot_uname": "@FilterNewProBot"
+    },
+    "bot3": {
+      "host": "Heroku",
+      "status_data": "",
+      "bot_uname": "@hdmovies5Bot"
+    },
+    "bot4": {
+      "host": "Heroku",
+      "status_data": "",
+      "bot_uname": "@FilterNewProBot"
+    }
+  },
+  "channels": {
+    "chat1": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat2": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat3": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat4": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
     }
   }
+}

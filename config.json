@@ -18,7 +18,7 @@
     "bot4": {
       "host": "Heroku",
       "status_data": "",
-      "bot_uname": "@FilterNewProBot"
+      "bot_uname": "@FilterFilmProBot"
     }
   },
   "channels": {

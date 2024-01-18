@@ -1,5 +1,6 @@
 {
-  "bots": {
+  "bots":
+  {
     "bot1": {
       "host": "Heroku",
       "status_data": "",

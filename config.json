@@ -20,6 +20,11 @@
       "host": "Heroku",
       "status_data": "",
       "bot_uname": "@FilterFilmProBot"
+    },
+    "bot5": {
+      "host": "Heroku",
+      "status_data": "",
+      "bot_uname": "@pandalinkbypassbot"
     }
   },
   "channels": {
@@ -36,6 +41,10 @@
       "message_id": "10"
     },
     "chat4": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat5": {
       "chat_id": "-1002010698302",
       "message_id": "10"
     }

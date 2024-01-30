@@ -25,7 +25,17 @@
       "host": "Heroku",
       "status_data": "",
       "bot_uname": "@pandalinkbypassbot"
-    }
+    },
+    "bot6": {
+      "host": "VPS",
+      "status_data": "",
+      "bot_uname": "@WelcomesUserBot"
+    },
+    "bot7": {
+      "host": "VPS",
+      "status_data": "",
+      "bot_uname": "@iinstagram5_bot"
+    },
   },
   "channels": {
     "chat1": {
@@ -45,6 +55,15 @@
       "message_id": "4"
     },
     "chat5": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    },
+    "chat6": {
+      "chat_id": "-1002010698302",
+      "message_id": "10"
+    }
+    ,
+    "chat7": {
       "chat_id": "-1002010698302",
       "message_id": "10"
     }

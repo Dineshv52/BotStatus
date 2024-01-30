@@ -2,7 +2,7 @@ name: Bot Status Check
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:

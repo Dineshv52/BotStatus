@@ -60,7 +60,7 @@ except Exception as e:
     log.error("Error: config.json is not valid")
     exit(1)
 
-HEADER_MSG = getenv("HEADER_MSG", "**Telegram Bot Status :**")
+HEADER_MSG = getenv("HEADER_MSG", "**Available Telegram Bot Status :**")
 FOOTER_MSG = getenv("FOOTER_MSG", "#HappyHacking #Python #SecurityPanda @bugbountyhunt")
 TIME_ZONE = getenv("TIME_ZONE", "Asia/Kolkata")
 
@@ -238,8 +238,9 @@ async def check_bots():
 ┌ **Time :** `{current_time.strftime('%H:%M:%S')} hrs`
 ├ **Date :** `{current_time.strftime('%d %B %Y')}`
 └ **Time Zone :** `{TIME_ZONE} (UTC {current_time.strftime('%z')})`
+For bot support contact developer @bugbountyhunt
 
-__• Auto Status Update in 20 mins Interval__
+__• Auto Status Update in 60 mins Interval__
 
 {FOOTER_MSG}"""
     await editStatusMsg(status_message)
